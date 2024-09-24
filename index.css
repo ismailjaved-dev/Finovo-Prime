@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "ITC-Avant";
+  src: url("assets/font/ITCAvantGardeStd.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "ITC-Avant", sans-serif;
+  padding: 20px;
+  overflow: hidden;
+}
+
+/* .ellipse{
+    background: #0066FF;
+    height: 400px;
+    width: 400px;
+    filter: blur(100px);
+    border-radius: 100%;
+    opacity: 0.7;
+} */
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.img-container img {
+  max-width: 250px;
+}
+
+.text-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 650px;
+  margin-top: 8rem;
+}
+
+.text-container > span {
+  font-size: 16px;
+  color: #6942e2;
+  background: #6942e20d;
+  padding: 15px;
+  border-radius: 100px;
+  width: fit-content;
+}
+
+.text-container h1 {
+  font-size: 49px;
+  text-align: center;
+  /* line-height: 58px; */
+  margin-block: 20px;
+}
+
+.text-container h1 span {
+  color: #6942e2;
+}
+
+.text-container p {
+  text-align: center;
+  color: #668196;
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .text-container h1 {
+      font-size: 36px; /* Adjust as needed */
+    }
+  }
+  
+
